@@ -1,0 +1,20 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and editor files
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Secrets and local Streamlit credentials
+.streamlit/secrets.toml
+
+# IBM Telco CSV is available from the public dataset source; do not commit customer rows.
+data/*.csv
+!data/README.md
+
+# Keep the small fitted model and evaluated metrics in the project submission.
